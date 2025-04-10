@@ -1,0 +1,412 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1f2937; /* Default dark background */
+  color: #d1d5db; /* Default light text */
+  line-height: 1.8;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light-mode {
+  background-color: #e5e7eb; /* Softer light background */
+  color: #111827; /* Darker text for better visibility */
+}
+
+.container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Wrapper for all sections */
+.wrapper, .abstract-section {
+  max-width: 900px; /* Increased width for all sections */
+  margin: 2rem auto; /* Add consistent spacing between sections */
+  background: #374151; /* Dark card background */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light-mode .wrapper, body.light-mode .abstract-section {
+  background: #f9fafb; /* Light card background */
+  color: #111827; /* Darker text */
+}
+
+.wrapper:hover, .abstract-section:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #60a5fa; /* Light blue for headings */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #60a5fa;
+  margin-bottom: 2rem;
+}
+
+body.light-mode h1, body.light-mode h2 {
+  color: #1e40af; /* Darker blue for headings */
+}
+
+p {
+  font-size: 1.125rem;
+  margin-bottom: 1.25rem;
+  color: #9ca3af; /* Softer text color */
+  text-align: justify;
+}
+
+body.light-mode p {
+  color: #374151; /* Darker text for paragraphs */
+}
+
+a {
+  display: block;
+  padding: 0.75rem 1.5rem;
+  background-color: #2563eb; /* Default button background */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+  transition: all 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+body.light-mode a {
+  background-color: #2563eb; /* Ensure button contrast */
+  color: #ffffff; /* White text for buttons */
+}
+
+a:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+body.light-mode a:hover {
+  background-color: #1d4ed8; /* Slightly darker blue on hover */
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.credits {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #9ca3af;
+  margin-top: 1.5rem;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+.credits .font-bold {
+  font-weight: bold;
+  color: #d1d5db;
+}
+
+.team-section {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.team-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #60a5fa;
+  margin-bottom: 2rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  justify-items: center;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+}
+
+.team-member p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #d1d5db;
+  font-weight: 500;
+  text-align: center; /* Ensure proper alignment */
+  transition: color 0.3s ease;
+}
+
+.team-member:hover p {
+  color: #60a5fa;
+}
+
+.team-grid .placeholder {
+  width: 150px;
+  height: 150px;
+  border: 2px dashed #9ca3af;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+
+.acknowledgements-section {
+  margin-top: 3rem;
+  text-align: center;
+  padding: 0 1.5rem; /* Increase padding for better spacing */
+}
+
+.acknowledgements-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #60a5fa; /* Light blue for headings */
+  text-align: center; /* Center align the title */
+  margin-bottom: 1.5rem; /* Reduce bottom margin for less space */
+}
+
+.acknowledgements-grid {
+  display: block; /* Use block layout for simplicity */
+  margin-top: 1.5rem; /* Add more spacing above the grid */
+}
+
+.acknowledgement {
+  text-align: center;
+  background: none; /* Remove background */
+  border-radius: 0; /* Remove border radius */
+  padding: 0; /* Remove padding */
+  box-shadow: none; /* Remove box shadow */
+  transition: none; /* Remove transition effects */
+}
+
+.acknowledgement img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.acknowledgement p {
+  margin: 0 auto; /* Center the text block */
+  max-width: 700px; /* Slightly increase max width for better readability */
+  line-height: 1.8; /* Further improve line spacing */
+  font-size: 1.125rem; /* Match description font size */
+  color: #9ca3af; /* Softer text color */
+  text-align: justify; /* Ensure justified alignment */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.acknowledgement:hover p {
+  transform: translateY(-5px);
+  opacity: 0.9;
+}
+
+#acknowledgements {
+  margin-top: 3rem;
+  padding: 1.5rem;
+  background-color: #374151; /* Dark card background */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light-mode #acknowledgements {
+  background-color: #f9fafb; /* Light card background */
+  color: #111827; /* Darker text */
+}
+
+#acknowledgements h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #60a5fa;
+  margin-bottom: 1rem;
+}
+
+body.light-mode #acknowledgements h2 {
+  color: #1e40af; /* Darker blue for light mode */
+}
+
+#acknowledgements p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #9ca3af;
+  text-align: justify;
+}
+
+body.light-mode #acknowledgements p {
+  color: #374151; /* Darker text for light mode */
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937; /* Default dark header */
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease;
+}
+
+body.light-mode .top-nav {
+  background-color: #f9fafb; /* Softer light header */
+  color: #111827; /* Darker text for header */
+}
+
+.top-nav .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #60a5fa; /* Light blue for logo */
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 1rem;
+}
+
+.nav-links a {
+  color: #d1d5db; /* Light text color */
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #60a5fa; /* Light blue on hover */
+  transform: scale(1.1);
+}
+
+.dark-mode-toggle {
+  background-color: #374151;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light-mode .dark-mode-toggle {
+  background-color: #e5e7eb; /* Softer toggle button background */
+  color: #111827; /* Darker text for toggle button */
+}
+
+#home, #team, #acknowledgements {
+  scroll-margin-top: 80px; /* Offset for sticky header */
+}
+
+.abstract-section {
+  margin-top: 3rem;
+  padding: 1.5rem;
+  background-color: #374151; /* Dark card background */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light-mode .abstract-section {
+  background-color: #f9fafb; /* Light card background */
+  color: #111827; /* Darker text */
+}
+
+.abstract-section h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #60a5fa;
+  margin-bottom: 1rem;
+}
+
+body.light-mode .abstract-section h2 {
+  color: #1e40af; /* Darker blue for light mode */
+}
+
+.abstract-section p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #9ca3af;
+  text-align: justify;
+}
+
+body.light-mode .abstract-section p {
+  color: #374151; /* Darker text for light mode */
+}
+
+/* Buttons */
+.btn-primary, .btn-secondary {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #2563eb, #1d4ed8); /* Gradient background */
+  color: white;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #1d4ed8, #2563eb); /* Reverse gradient on hover */
+  transform: translateY(-3px); /* Lift effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+}
+
+.btn-secondary {
+  background: linear-gradient(90deg, #10b981, #059669); /* Green gradient */
+  color: white;
+}
+
+.btn-secondary:hover {
+  background: linear-gradient(90deg, #059669, #10b981); /* Reverse gradient on hover */
+  transform: translateY(-3px); /* Lift effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+}
