@@ -4,9 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://AaryanAgrawal96.github.io/object-recognition-home",
-
   "scripts": {
-   
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
