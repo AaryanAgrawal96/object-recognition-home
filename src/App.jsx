@@ -98,7 +98,7 @@ export default function App() {
         <h2>Meet the Team</h2>
         <div className="team-grid">
           <div className="team-member">
-            <img src="\public\images\aaryan.jpg" alt="Aaryan Agrawal" />
+            <img src="https://drive.google.com/file/d/1zo9gkWLJoP0_MFr_vpepEnQVbegPEX0e/view?usp=drive_link" alt="Aaryan Agrawal" />
             <p>Aaryan Agrawal</p>
           </div>
           <div className="team-member">
@@ -106,11 +106,11 @@ export default function App() {
             <p>Devansh Saini</p>
           </div>
           <div className="team-member">
-            <img src="/images/dhanush.jpg" alt="Dhanush Kumar" />
+            <img src="./images/dhanush.jpg" alt="Dhanush Kumar" />
             <p>Dhanush Kumar</p>
           </div>
           <div className="team-member">
-            <img src="/images/kanishk.jpg" alt="Kanishk Singh Dayma" />
+            <img src=" https://cdn.shopify.com/s/files/1/0086/0795/7054/files/Labrador.jpg?v=1645179151" alt="Kanishk Singh ayma" />
             <p>Kanishk Singh Dayma</p>
           </div>
           <div className="team-member">
