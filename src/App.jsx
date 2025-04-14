@@ -5,6 +5,7 @@ export default function App() {
 
   useEffect(() => {
     document.body.classList.toggle("light-mode", !darkMode);
+    document.title = "Object Recognition"; 
   }, [darkMode]);
 
   const toggleDarkMode = () => {
@@ -53,12 +54,12 @@ export default function App() {
             GitHub Repo
           </a>
           <a
-            href="#"
+            href="https://youtu.be/7Q6O2tBPSrA"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"
           >
-            Video Demonstration (Coming Soon)
+            Video Demonstration
           </a>
           <a
             href="https://docs.google.com/document/d/18NsCVcM5VKOOG5T56j-vM39Ycihdg4v51u-hH5R3YAo/edit?tab=t.0"
@@ -69,12 +70,12 @@ export default function App() {
             Project Report
           </a>
           <a
-            href="#"
+            href="https://docs.google.com/document/d/1T72O0syaFEzFlZc4Mfm0NccbhbzqqWqr6mBEb6me72E/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"
           >
-            Minutes of Project Meetings (Coming Soon)
+            Minutes of Project Meetings
           </a>
           <a
             href="https://www.cs.toronto.edu/~kriz/cifar.html"
