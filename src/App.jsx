@@ -98,27 +98,27 @@ export default function App() {
         <h2>Meet the Team</h2>
         <div className="team-grid">
           <div className="team-member">
-            <img src="https://drive.google.com/file/d/1zo9gkWLJoP0_MFr_vpepEnQVbegPEX0e/view?usp=drive_link" alt="Aaryan Agrawal" />
+            <img src="https://media.licdn.com/dms/image/v2/D4E03AQFXJxPnhRGKug/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1719589437064?e=1750291200&v=beta&t=1-2VlW3lein3mu1FqYt5-XSHzzRW1Ri3lYbkeYrJ0mY" alt="Aaryan Agrawal" />
             <p>Aaryan Agrawal</p>
           </div>
           <div className="team-member">
-            <img src="src/assets/images/devansh.jpg" alt="Devansh Saini" />
+            <img src="https://media.licdn.com/dms/image/v2/D4D03AQEJ2y44uGreKg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1700406304814?e=1750291200&v=beta&t=Nqteme4mOQZQLuVmczbaYeZ9FnsEE-MG-u3SBfmBfYI" alt="Devansh Saini" />
             <p>Devansh Saini</p>
           </div>
           <div className="team-member">
-            <img src="./images/dhanush.jpg" alt="Dhanush Kumar" />
+            <img src="https://media.licdn.com/dms/image/v2/D5603AQFHKyt8cYpYoQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1688390021989?e=1750291200&v=beta&t=-5ypPOq-PK45rYz2DS39Tkctwhm2lyfu4rNqYPEDIOQ" alt="Dhanush Kumar" />
             <p>Dhanush Kumar</p>
           </div>
           <div className="team-member">
-            <img src=" https://cdn.shopify.com/s/files/1/0086/0795/7054/files/Labrador.jpg?v=1645179151" alt="Kanishk Singh ayma" />
+            <img src="https://media.licdn.com/dms/image/v2/D5603AQG5N3jjiYh_xQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730530500421?e=1750291200&v=beta&t=mLV5yvng1X09d30Essy7U7NYk5OB8JdO6uLjZhTwW74" alt="Kanishk Singh Dayma" />
             <p>Kanishk Singh Dayma</p>
           </div>
           <div className="team-member">
-            <img src="/images/mayank.jpg" alt="Mayank Dahiya" />
+            <img src="https://media.licdn.com/dms/image/v2/D5635AQHs294aTXOwvw/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1720973998461?e=1745229600&v=beta&t=tSGe1B5eTaX55Qxy_iEjbeypeAeFH_5Jy9QCimt1Pew" alt="Mayank Dahiya" />
             <p>Mayank Dahiya</p>
           </div>
           <div className="team-member">
-            <img src="/images/sidharth.jpg" alt="Sidharth Bhagat" />
+            <img src="https://media.licdn.com/dms/image/v2/D4D03AQH_MreoPUSCWA/profile-displayphoto-shrink_800_800/B4DZSO2UnoHkAg-/0/1737563394502?e=1750291200&v=beta&t=dzmEevw5zmRUJbV3kJZUb5rRCHmTDksjl1PPVWW6sWE" alt="Sidharth Bhagat" />
             <p>Sidharth Bhagat</p>
           </div>
         </div>
