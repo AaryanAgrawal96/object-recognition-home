@@ -37,12 +37,12 @@ export default function App() {
 
         <div className="links">
           <a
-            href="#"
+            href="https://cnn-interface.streamlit.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"
           >
-            Project Interface (Coming Soon)
+            Project Interface
           </a>
           <a
             href="https://github.com/Sidharth8100/Object_detection_PRML.git"
@@ -61,12 +61,12 @@ export default function App() {
             Video Demonstration (Coming Soon)
           </a>
           <a
-            href="#"
+            href="https://docs.google.com/document/d/18NsCVcM5VKOOG5T56j-vM39Ycihdg4v51u-hH5R3YAo/edit?tab=t.0"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"
           >
-            Project Report (Coming Soon)
+            Project Report
           </a>
           <a
             href="#"
