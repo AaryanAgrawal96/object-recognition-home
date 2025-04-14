@@ -98,7 +98,7 @@ export default function App() {
         <h2>Meet the Team</h2>
         <div className="team-grid">
           <div className="team-member">
-            <img src="public\images\aaryan.jpg" alt="Aaryan Agrawal" />
+            <img src="object-recognition-home\public\images\aaryan.jpg" alt="Aaryan Agrawal" />
             <p>Aaryan Agrawal</p>
           </div>
           <div className="team-member">
