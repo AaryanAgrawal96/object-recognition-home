@@ -102,7 +102,7 @@ export default function App() {
             <p>Aaryan Agrawal</p>
           </div>
           <div className="team-member">
-            <img src="src/images/devansh.jpg" alt="Devansh Saini" />
+            <img src="src/assets/images/devansh.jpg" alt="Devansh Saini" />
             <p>Devansh Saini</p>
           </div>
           <div className="team-member">
