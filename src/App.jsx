@@ -98,27 +98,27 @@ export default function App() {
         <h2>Meet the Team</h2>
         <div className="team-grid">
           <div className="team-member">
-            <img src="src/assets/images/aaryan.jpg" alt="Aaryan Agrawal" />
+            <img src="\src\assets\images\aaryan.jpg" alt="Aaryan Agrawal" />
             <p>Aaryan Agrawal</p>
           </div>
           <div className="team-member">
-            <img src="src/assets/images/devansh.jpg" alt="Devansh Saini" />
+            <img src="/images/devansh.jpg" alt="Devansh Saini" />
             <p>Devansh Saini</p>
           </div>
           <div className="team-member">
-            <img src="src/assets/images/dhanush.jpg" alt="Dhanush Kumar" />
+            <img src="/images/dhanush.jpg" alt="Dhanush Kumar" />
             <p>Dhanush Kumar</p>
           </div>
           <div className="team-member">
-            <img src="src/assets/images/kanishk.jpg" alt="Kanishk Singh Dayma" />
+            <img src="/images/kanishk.jpg" alt="Kanishk Singh Dayma" />
             <p>Kanishk Singh Dayma</p>
           </div>
           <div className="team-member">
-            <img src="src/assets/images/mayank.jpg" alt="Mayank Dahiya" />
+            <img src="/images/mayank.jpg" alt="Mayank Dahiya" />
             <p>Mayank Dahiya</p>
           </div>
           <div className="team-member">
-            <img src="src/assets/images/sidharth.jpg" alt="Sidharth Bhagat" />
+            <img src="/images/sidharth.jpg" alt="Sidharth Bhagat" />
             <p>Sidharth Bhagat</p>
           </div>
         </div>
