@@ -98,11 +98,11 @@ export default function App() {
         <h2>Meet the Team</h2>
         <div className="team-grid">
           <div className="team-member">
-            <img src="\src\assets\images\aaryan.jpg" alt="Aaryan Agrawal" />
+            <img src="src\assets\images\aaryan.jpg" alt="Aaryan Agrawal" />
             <p>Aaryan Agrawal</p>
           </div>
           <div className="team-member">
-            <img src="/images/devansh.jpg" alt="Devansh Saini" />
+            <img src="src/images/devansh.jpg" alt="Devansh Saini" />
             <p>Devansh Saini</p>
           </div>
           <div className="team-member">
